@@ -1,14 +1,15 @@
 This is a mock up of SamAsh.com musical website.<br>
 
 <h3>HTML requirements</h3>
-The website consists out of three text-populated pages with consistent grid:
+The website consists out of four text-populated pages with consistent grid:
 <ul>
 <li>Home page, or index.html</li>
+<li>Stores page, or stores.html</li>
 <li>Customer support page, or help.html</li>
 <li>Register an account page, or register.html</li>
 </ul>
 index.html can be navigated to by clicking main SamAsh logo in the top left corner of the website.
-help.html can be navigated to by clicking on 'Help' in the left section of top navigation bar, and register.html by clicking on "Log In / Register' in the right section of top navigation bar. Each contains a form.
+help.html can be navigated to by clicking on 'Help', and stores.html on 'Stores', in the left section of top navigation bar; register.html can be navigated to by clicking on "Log In / Register' in the right section of top navigation bar. Both help.html and register.html contain a form.
 <br>
 The website utilizes multiple HTML tags, including <code>nav</code>, <code>main</code>, <code>form</code>, <code>fieldset</code>, <code>table</code> <code>footer</code> etc.
 <br>
