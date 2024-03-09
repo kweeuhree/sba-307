@@ -19,7 +19,7 @@ Many different images are used thoughout in order to create an appealing look. G
 <h3>CSS requirements</h3>
 Inline, internal and external styling is used. Using inline only by accident as <code>svg</code> of a search icon contained inline styling:
 ```
-<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16"></svg>
+xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16"
 ```
 <br>
 Multiple CSS selectors are used in order to achieve a fully customized website. 

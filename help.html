@@ -8,6 +8,12 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Navigation -->
@@ -16,7 +22,7 @@
         <!-- Top Advertisement -->
         <div class="top-advertisement">
             <strong>SAM ASH REWARDS!</strong>
-             $50 GIFT CERTIFICATE WITH
+            &nbsp;$50 GIFT CERTIFICATE WITH
             A PURCHASE OF $399+ <span>
             <a 
               href="https://www.samash.com/sam-ash-rewards"
@@ -59,10 +65,12 @@
 
             <!-- Logo -->
             <div class="logo-div">
-                <img 
+                <a href="index.html">
+                    <img 
                     src="https://www.samash.com/media/logo/stores/1/samash100_web_head_300.png" 
                     alt="Sam Ash Logo" 
                     class="logo">
+                </a>
             </div>
 
             <!-- Search and Cart Container -->
@@ -122,7 +130,7 @@
         </div>
 
     <!-- Main Container -->
-        <div class="main-container">
+        <div class="help-main-container">
 
             <div class="help-title">
                 <h1>How can we help you?</h1>
@@ -153,82 +161,86 @@
                 </p>
             </div>
 
-        <!-- Form Container -->
-        <div class="form-container">
+            <!-- Form Container -->
+            <div class="form-container">
 
-         <!-- Form & Form fields -->
-            <form action="/submit-form">
-                <label for="Department">Department:</label>
-                <select name="Department" id="department-select">
-                    <option value="customer service">Customer Service</option>
-                    <option value="guitar/bass/amps">Guitar/Bass/Amps</option>
-                    <option value="keyboards">Keyboards</option>
-                    <option value="recording">Recording</option>
-                    <option value="live sound">Live Sound</option>
-                    <option value="strings">Strings</option>
-                    <option value="international">International</option>
-                </select>
+            <!-- Form & Form fields -->
+                <form action="/submit-form">
+                    <fieldset>
+                    <label for="Department">Department:</label><br>
+                    <select name="Department" id="department-select">
+                        <option value="customer service">Customer Service</option>
+                        <option value="guitar/bass/amps">Guitar/Bass/Amps</option>
+                        <option value="keyboards">Keyboards</option>
+                        <option value="recording">Recording</option>
+                        <option value="live sound">Live Sound</option>
+                        <option value="strings">Strings</option>
+                        <option value="international">International</option>
+                    </select>
+                    <br><br>
+                    <label for="How can we help you">How can we help you?:</label><br>
+                    <textarea name="help textarea" id="help-textarea" cols="30" rows="10"></textarea>
+                    <br><br>
+                    
+                    <label for="First Name">First Name:</label><br>
+                    <input type="text" class="form-input" required>
+                    <br><br>
+                    <label for="Last Name">Last Name:</label><br>
+                    <input type="text" class="form-input" required>
+                    <br><br>
+                    <label for="Email">Email:</label><br>
+                    <input type="text" class="form-input" required>
+                    </fieldset>
 
-                <label for="How can we help you">How can we help you?:</label>
-                <textarea name="help textarea" id="help-textarea" cols="30" rows="10"></textarea>
-            
-            <fieldset>
-                <label for="First Name">First Name:</label>
-                <input type="text" class="form-input" required>
+                    <div class="form-input-btn-div">
+                        <input type="submit" value="Submit" class="form-input-btn">
+                    </div>
+                
+                </form>
+            </div>
 
-                <label for="Last Name">Last Name:</label>
-                <input type="text" class="form-input" required>
-
-                <label for="Email">Email:</label>
-                <input type="text" class="form-input" required>
-            </fieldset>
-
-            <input type="submit" value="Submit" class="form-input-btn">
-            </form>
-        </div>
-
-
-
-        </div>
-
-        <div class="help-details">
-            <p>
-                You can also contact Sam Ash Customer Service by calling 800-472-6274, 9:30 am - 9:00 pm EST, Monday - Friday, 9:30 am - 6:00 pm EST, Saturday & Sunday. If this a store related matter, find and call  
-                <a href="https://www.samash.com/store-locator">
-                    your local Sam Ash Store here
-                </a>.    
-            </p>
-            
-            <h6>Where's My Order?</h6>
-
-            <p>
-                To see the status of your shipment, log on to the 
-                site and click "<b>My Account</b>" at the top of any page. 
-                Click the "<b>View Orders</b>" button and then the order 
-                you want to track. Just click the tracking number 
-                to see the exact distance separating you from your 
-                order. Please note that you won't be able to view 
-                in-route information for orders shipped via USPS.
-            </p>
-
-            <hr>
-
-            <h6>Se habla español 1-800-472-6274</h6>
-            <p>
-                Sam Ash es una compañia de propiedad familiar 
-                que a estado sirviendo músicos desde 1924. 
-                Nuestro equipo de expertos vendedores son músicos 
-                bilingües con la capacidad de ayudar en español 
-                y en portugués. Nuestras horas de operación son 
-                de 11:00am-7:00pm todos los días. 
-                Nosotros garantisamos un servicio excelente y los
-                precios más bajos. Estamos aquí para darle 
-                excelente servicio a nuestros clientes, 
-                responder cualquier pregunta y ayudarlos con sus 
-                compras. Nuestra tienda también ofrece precios 
-                para exportar a cualquier parte del mundo 
-                con y sin impuestos.
-            </p>
+            <div class="help-details">
+                <p>
+                    You can also contact Sam Ash Customer Service 
+                    by calling 800-472-6274, 9:30 am - 9:00 pm EST, 
+                    Monday - Friday, 9:30 am - 6:00 pm EST, 
+                    Saturday & Sunday. If this a store related matter, 
+                    find and call
+                    <a href="https://www.samash.com/store-locator">
+                        your local Sam Ash Store here</a>.    
+                </p>
+                
+                <h6>Where's My Order?</h6>
+    
+                <p>
+                    To see the status of your shipment, log on to the 
+                    site and click "<b>My Account</b>" at the top of any page. 
+                    Click the "<b>View Orders</b>" button and then the order 
+                    you want to track. Just click the tracking number 
+                    to see the exact distance separating you from your 
+                    order. Please note that you won't be able to view 
+                    in-route information for orders shipped via USPS.
+                </p>
+    
+                <hr>
+    
+                <h6>Se habla español 1-800-472-6274</h6>
+                <p>
+                    Sam Ash es una compañia de propiedad familiar 
+                    que a estado sirviendo músicos desde 1924. 
+                    Nuestro equipo de expertos vendedores son músicos 
+                    bilingües con la capacidad de ayudar en español 
+                    y en portugués. Nuestras horas de operación son 
+                    de 11:00am-7:00pm todos los días. 
+                    Nosotros garantisamos un servicio excelente y los
+                    precios más bajos. Estamos aquí para darle 
+                    excelente servicio a nuestros clientes, 
+                    responder cualquier pregunta y ayudarlos con sus 
+                    compras. Nuestra tienda también ofrece precios 
+                    para exportar a cualquier parte del mundo 
+                    con y sin impuestos.
+                </p>
+            </div>
         </div>
 
     </main>
@@ -287,9 +299,7 @@
         <div class="privacy-and-terms-container">
             For details on how we use your information, please read our 
             <a href="https://www.samash.com/help-center/privacy-policy-cookie-restriction-mode">
-                PRIVACY POLICY
-            </a>
-            and
+                PRIVACY POLICY</a> &nbsp;and
             <a href="https://www.samash.com/help-center/terms-of-use">
                 TERMS OF USE
             </a>
