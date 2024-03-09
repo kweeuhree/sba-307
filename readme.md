@@ -14,9 +14,9 @@ The website utilizes multiple HTML tags, including <code>nav</code>, <code>main<
 <br>
 The table is used in the footer of every page and contains 'About Us', 'Customer Support' and 'Quick Links' table headers.
 <br>
-A dropdown menu is placed inside help.html and allows to make a choice of department.
-![Dropdown Menu](images/dropdown.png)
-<br>
+A dropdown menu is placed inside help.html and allows to make a choice of department:<br>
+![Dropdown Menu](https://raw.githubusercontent.com/kweeuhree/sba-307/21e7b92283ca3e51ae197e6a7b76dc6e4ccd88b4/images/dropdown.png)
+<br><br>
 Many different images are used thoughout in order to create an appealing look. Gifs are used in the footer of every page. Twitter and Facebook social media icons are gifs.
 <br>
 <hr>
