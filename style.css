@@ -205,7 +205,47 @@ nav {
 .main-nav-tag {
     margin-left: 2.2vw;
     margin-right: 2.2vw;
+/*     dropdown      */
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    text-wrap: nowrap;
 }
+
+.main-nav-tag a {
+    color: black;
+    text-decoration: none;
+}
+
+  /* Dropdown content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    padding-top: 15%;
+    width: 450%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-weight: 400;
+    font-size: 1.4vh;
+    letter-spacing: 0.05vw;;
+  }
+
+.dropdown-content a:hover {
+    color: rgb(179, 43, 43);
+  }
+
+  /* Show dropdown content on hover */
+.main-nav-tag:hover .dropdown-content {
+    display: block;
+  }
 
 /* Main Advertisement */
 
