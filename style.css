@@ -1,3 +1,19 @@
+/* Animation */
+@keyframes ad-animation {
+    0% {transform: translateX(-55vw);}
+    25% {transform: translateX(0);}
+    52.55% {transform: translateX(35vw);}
+    75% {transform: translateX(55vw);}
+    100% {transform: translateX(100vw);}
+}
+
+@keyframes shopping-cart-animation {
+    from {transform: rotate(90deg);}
+    to {transform: rotate(0);} 
+}
+/* ----------------------------------------------------------- */
+
+/* Flex */
 body, nav, footer,
 .top-advertisement,
 .top-navigation-container,
@@ -54,6 +70,16 @@ nav {
     word-spacing: 0.1vw;
 }
 
+.space {
+    width: 40vw;
+}
+
+.animation {
+    animation: ad-animation 30s linear infinite;
+    display: flex;
+    text-wrap: nowrap;
+}
+
 .top-advertisement a {
     color: black;
     text-decoration: none;
@@ -63,10 +89,13 @@ nav {
 /* Top Navigation Container */
 
 .top-navigation-container {
-    width: 100%;
+    width: 95%;
     /* border: solid orange; */
     margin: 0;
-    height: 5vh;
+    padding-top: 2%;
+    height: 6vh;
+    font-size: 1.5vh;
+    letter-spacing: 0.05vw;
 }
 
 .top-nav-left {
@@ -87,6 +116,16 @@ nav {
     color: black;
     text-decoration: none;
 }
+
+.top-nav-tag:hover, .top-nav-tag a:hover {
+    color:rgb(179, 43, 43);
+}
+
+.phone-number {
+    font-size: 1.6vh;
+    letter-spacing: 0.1vw;;
+}
+
 
 /* Logo, Search and Cart Container */
 
@@ -141,7 +180,10 @@ nav {
 .cart-div {
     width: 4%;
     margin-right: 1%;
+    animation: shopping-cart-animation 10s ease-in-out 1;
+    animation-delay: 50ms;
 }
+
 
 /* Main */
 
