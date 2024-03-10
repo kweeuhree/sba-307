@@ -1,7 +1,7 @@
 This is a mock up of SamAsh.com musical website.<br>
 
 <h3>HTML requirements</h3>
-The website consists out of five text-populated pages with consistent grid:
+The website is responsive and consists out of five text-populated pages with consistent grid:
 <ul>
 <li>Home page, or index.html</li>
 <li>Stores page, or stores.html</li>
