@@ -243,7 +243,35 @@ th {
 
 /* -------------------register.html------------------------------------- */
 
+.register-main-container {
+    gap: 2%;
+    width: 80%;
+    height: 64vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.create-account-form {
+    border: 1px solid lightgray;
+    width: 50%;
+    max-height: 100%;
+}
+
+.login-with-social {
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    /* border: solid purple; */
+}
 /* register.html form-input-button */
+
+.register-form-btn-div {
+    height: 4vh;
+    width: 100%;
+    /* border: solid green; */
+}
 .form-input-btn-div {
     margin: 2%;
 }
@@ -288,6 +316,30 @@ th {
     font-weight: 600;
     font-size: 1.6vh;
     width: 100%;
+}
+
+/* -------------------gift-certificates.html----------------------------- */
+
+.gift-image-and-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gift-image-container {
+    width: 55%;
+}
+
+.gift-form-container {
+    width: 45%;
+    padding-left: 2%;
+}
+
+.green-btn {
+    background-color: #3e7c21;
+    height: 5vh;
+    width: 50%;
+    margin-left: 45%;
+    transition: background-color 400ms; 
 }
 }
 /* --------[End of Desktop]-------------------------------------------- */
@@ -604,6 +656,12 @@ th {
 /* -------------------register.html------------------------------------- */
 
 /* register.html form-input-button */
+
+.register-form-btn-div {
+    height: 4vh;
+    width: 100%;
+    /* border: solid green; */
+}
 .form-input-btn-div {
     margin: 2%;
 }
@@ -619,6 +677,30 @@ th {
     font-family: "Lato", bold;
     letter-spacing: 0.05vw;
     cursor: pointer;
+}
+
+.register-main-container {
+    gap: 2%;
+    width: 80%;
+    height: 64vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.create-account-form {
+    border: 1px solid lightgray;
+    width: 50%;
+    max-height: 100%;
+}
+
+.login-with-social {
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    /* border: solid purple; */
 }
 
 /* -------------------help.html------------------------------------- */
@@ -649,7 +731,33 @@ th {
     font-size: 1.6vh;
     width: 100%;
 }
+
+/* -------------------gift-certificates.html----------------------------- */
+
+.gift-image-and-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.gift-image-container {
+    width: 55%;
+}
+
+.gift-form-container {
+    width: 45%;
+    padding-left: 2%;
+}
+
+.green-btn {
+    background-color: #3e7c21;
+    height: 5vh;
+    width: 50%;
+    margin-left: 45%;
+    transition: background-color 400ms; 
+}
+}
+
 /* --------[End of Mid]------------------------------------------------ */
 /* ------------------------------------------------------------------ */
 /* --------[Mobile]---------------------------------------------------- */
@@ -884,6 +992,36 @@ th {
     cursor: pointer;
 }
 
+.register-form-btn-div {
+    height: fit-content;
+    width: 100%;
+    /* border: solid green; */
+}
+
+.register-main-container {
+    display:unset;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    width: 100%;
+    margin: 2%;
+}
+
+.create-account-form {
+    border: 1px solid lightgray;
+    width: 100%;
+    max-height:fit-content;
+}
+
+.login-with-social {
+    text-align: center;
+    width: 100%;
+    height:0%;
+    /* border: solid purple; */
+}
+
+/* -------------------help.html------------------------------------- */
+
 /* help.html form */
 .form-input, textarea, select {
     width: 95%;
@@ -910,6 +1048,31 @@ th {
     font-size: 1.6vh;
     width: 93%;;
 }
+
+/* -------------------gift-certificates.html----------------------------- */
+
+.gift-image-and-form-container {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.gift-image-container {
+    width: 100%;
+}
+
+.gift-form-container {
+    width: 100%;
+    padding-left: 2%;
+}
+
+.green-btn {
+    background-color: #3e7c21;
+    height: 5vh;
+    width: 50%;
+    margin-left: 45%;
+    transition: background-color 400ms; 
+}
 }
 /* --------[End of Mobile]--------------------------------------------- */
 /* ----------------------------------------------------------- */
@@ -924,10 +1087,8 @@ body, nav, footer,
 .footer-table,
 .social-media-container, 
 .help-main-container,
-.register-main-container,
 .stores-main-container,
 .gift-certificates-container,
-.gift-image-and-form-container,
 .online-shopping-images-container {
     display: flex;
     justify-content: center;
@@ -1131,19 +1292,7 @@ label {
 /* -------------------------------------------------------------- */
 /* -------------------------------------------------------------- */
 /* ------------------------ register.html----------------------- */
-.register-main-container {
-    gap: 2%;
-    width: 80%;
-    height: 64vh;
-    margin: 0 auto;
 
-}
-
-.create-account-form {
-    border: 1px solid lightgray;
-    width: 50%;
-    max-height: 100%;
-}
 
 .create-account-form p {
     /* border: solid orange; */
@@ -1174,13 +1323,6 @@ label {
     width: 88%;
 }
 
-.login-with-social {
-    text-align: center;
-    width: 50%;
-    height: 100%;
-    /* border: solid purple; */
-}
-
 .login-with-social p {
     margin: 0 auto;
     width: 68%;
@@ -1198,12 +1340,6 @@ label {
 }
 
 /* Form Buttons */
-
-.register-form-btn-div {
-    height: 4vh;
-    width: 100%;
-    /* border: solid green; */
-}
 
 .register-btn {
     width: 44%;
@@ -1235,14 +1371,6 @@ label {
 
 .red-btn:hover {
     background-color: rgb(228, 77, 77);
-}
-
-.green-btn {
-    background-color: #3e7c21;
-    height: 5vh;
-    width: 50%;
-    margin-left: 45%;
-    transition: background-color 400ms; 
 }
 
 .green-btn:hover {
@@ -1293,14 +1421,6 @@ label {
     margin: 0 auto;
 }
 
-.gift-image-container {
-    width: 55%;
-}
-
-.gift-form-container {
-    width: 45%;
-    padding-left: 2%;
-}
 .amount-input-and-minmax-div{
     display: flex;
     flex-direction: column;
