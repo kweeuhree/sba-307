@@ -28,17 +28,743 @@
 }
 /* ----------------------------------------------------------- */
 
+/* Media Queries */
+
+/* --------[Desktop]--------------------------------------------------- */
+@media (min-width: 1280px) {
+    /* Body and Nav */
+body {
+    border: solid green;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Top Navigation Container */
+
+.top-navigation-container {
+    width: 65%;
+    /* border: solid orange; */
+    margin: 0;
+    padding-top: 2%;
+    height: 6vh;
+    font-size: 1.5vh;
+    letter-spacing: 0.05vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Top Advertisement */
+
+.top-advertisement {
+    background-color: lightgray;
+    width: 100%;
+    text-align: center;
+    height: 4vh;
+    font-size: 1.1vw;
+    font-weight: 500;
+    letter-spacing: 0.05vw;
+    word-spacing: 0.1vw;
+    overflow: hidden;
+}
+
+.animation {
+    animation: ad-animation 35s linear infinite;
+    display: flex;
+    text-wrap: nowrap;
+    flex-direction: row;
+}
+
+/* Logo, Search and Cart Container */
+.mobile-side-bar {
+    display: none;
+    width: 1%;
+    margin: 0%;
+}
+
+.logo-and-search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: solid aqua; */
+    width: 65%;
+    margin: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+ 
+.logo-div {
+    width: 15%;
+    justify-content: right;
+    /* border: solid purple; */
+}
+
+.search-and-cart-container {
+    /* border: solid seagreen; */
+    justify-content: right;
+    width: 82%;
+    gap: 5%;
+}
+
+.search {
+    width: 40%;
+    position: relative;
+}
+
+.search-input-element {
+    display: block;
+    border: none;
+    height: 3vh;
+    width: 100%;
+    border-bottom: 1px solid black;
+    /* margin-left: 25%; */
+}
+
+.bi-search {
+    position: absolute;
+    right: 3%;
+    top: 5%;
+}
+ 
+.cart-div {
+    width: 4%;
+    margin-right: 1%;
+    animation: shopping-cart-animation 10s ease-in-out 1;
+    animation-delay: 50ms;
+}
+
+/* Main */
+
+/* Main Navigation Bar*/
+
+.main-navigation-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid lightgray;
+    width: 100%;
+    padding: 1%;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 1.6vh;
+    font-weight: 600;
+    font-family: "Lato", sans-serif;
+    letter-spacing: 0.1vw;
+    word-spacing: 0.1vw;
+}
+
+.main-nav-tag {
+    margin-left: 2.2vw;
+    margin-right: 2.2vw;
+/*     dropdown      */
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    text-wrap: nowrap;
+}
+
+/* Main Advertisement */
+
+.ad-segment {
+    margin-top: 1%;
+}
+
+.ad-image {
+    width: 100%;
+}
+
+.black-background-ad {
+    background-color: #171717;
+}
+
+/* Enter Department Container Mobile */
+.enter-department-container-mobile {
+    display: none;
+}
+
+/* Enter Department Container Mid And Desktop*/
+.enter-department-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Footer */
+
+footer {
+    gap: 1vh;
+    border-top: 0.5px solid rgb(230, 230, 230);
+    padding-top: 2%;
+}
+/* Social Media Section */
+.social-icon-div {
+    width: 2%;
+    margin: 1%;
+}
+
+.footer-table {
+    width: 70%;
+    padding-bottom: 2%;
+}
+
+table {
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    text-align: left;
+    width: 90%;
+    letter-spacing: 0.05vw;
+    word-spacing: 0.1vw;
+}
+td {
+    padding: 0.4vw;
+    padding-left: 4vw;
+    padding-right: 0vw;
+    font-size: 0.7vw;
+}
+
+th {
+    padding: 4vw;
+    font-weight: 550;
+    font-family: "Lato", bold;
+}
+
+.privacy-and-terms-container {
+    font-size: 0.8vw;
+    font-weight: 600;
+    letter-spacing: 0.05vw;
+    word-spacing: 0.1vw;
+    width: 90%;
+    text-align: center;
+}
+}
+/* --------[End of Desktop]-------------------------------------------- */
+/* ----------------------------------------------------------- */
+/* --------[Mid]-------------------------------------------------------- */
+@media (max-width: 1280px) {
+    /* Body and Nav */
+body {
+    border: solid red;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Top Navigation Container */
+
+.top-navigation-container {
+    width: 95%;
+    /* border: solid orange; */
+    margin: 0;
+    padding-top: 2%;
+    height: 6vh;
+    font-size: 1.5vh;
+    letter-spacing: 0.05vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Top Advertisement */
+
+.top-advertisement {
+    background-color: lightgray;
+    width: 100%;
+    text-align: center;
+    height: 4vh;
+    font-size: 1.2vw;
+    font-weight: 500;
+    letter-spacing: 0.05vw;
+    word-spacing: 0.1vw;
+    overflow: hidden;
+}
+
+.animation {
+    animation: ad-animation 35s linear infinite;
+    display: flex;
+    text-wrap: nowrap;
+    flex-direction: row;
+
+/* Logo, Search and Cart Container */
+
+.logo-and-search-container {
+    /* border: solid aqua; */
+    width: 98%;
+    margin: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+ 
+.logo-div {
+    width: 15%;
+    justify-content: right;
+    /* border: solid purple; */
+}
+
+/* Main */
+
+/* Main Navigation Bar*/
+
+.main-navigation-bar {
+    border: 0.5px solid lightgray;
+    width: 100%;
+    padding: 2%;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 1.6vh;
+    font-weight: 600;
+    font-family: "Lato", sans-serif;
+    letter-spacing: 0.1vw;
+    word-spacing: 0.1vw;
+}
+
+.main-nav-tag {
+    margin-left: 2.2vw;
+    margin-right: 2.2vw;
+/*     dropdown      */
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    text-wrap: nowrap;
+}
+
+/* Main Advertisement */
+
+.ad-segment {
+    margin-top: 1%;
+}
+
+/* Footer */
+
+footer {
+    gap: 2vh;
+    border-top: 0.5px solid rgb(230, 230, 230);
+    padding-top: 2%;
+}
+
+/* Social Media Section */
+.social-icon-div {
+    width: 3%;
+    margin: 1%;
+}
+
+.footer-table {
+    width: 90%;
+    padding-bottom: 2%;
+}
+
+table {
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    text-align: left;
+    width: 100%;
+    letter-spacing: 0.1vw;
+    word-spacing: 0.1vw;
+}
+td {
+    padding: 0.4vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-size: 1.1vw;
+}
+
+th {
+    padding: 2vw;
+    font-weight: 550;
+    font-family: "Lato", bold;
+}
+
+.privacy-and-terms-container {
+    font-size: 1.1vw;
+    font-weight: 600;
+    letter-spacing: 0.05vw;
+    word-spacing: 0.1vw;
+}
+}
+
+
+/* Logo, Search and Cart Container */
+.mobile-side-bar {
+    display: none;
+    width: 1%;
+    margin: 0%;
+}
+
+.logo-and-search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: solid aqua; */
+    width: 65%;
+    margin: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+ 
+.logo-div {
+    width: 15%;
+    justify-content: right;
+    /* border: solid purple; */
+}
+
+.search-and-cart-container {
+    /* border: solid seagreen; */
+    justify-content: right;
+    width: 82%;
+    gap: 5%;
+}
+
+.search {
+    width: 40%;
+    position: relative;
+}
+
+.search-input-element {
+    display: block;
+    border: none;
+    height: 3vh;
+    width: 100%;
+    border-bottom: 1px solid black;
+    /* margin-left: 25%; */
+}
+
+.bi-search {
+    position: absolute;
+    right: 3%;
+    top: 5%;
+}
+ 
+.cart-div {
+    width: 4%;
+    margin-right: 1%;
+    animation: shopping-cart-animation 10s ease-in-out 1;
+    animation-delay: 50ms;
+}
+
+/* Main */
+
+/* Main Navigation Bar*/
+
+.main-navigation-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid lightgray;
+    width: 100%;
+    padding: 1%;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 1.6vh;
+    font-weight: 600;
+    font-family: "Lato", sans-serif;
+    letter-spacing: 0.1vw;
+    word-spacing: 0.1vw;
+}
+
+.main-nav-tag {
+    margin-left: 2.2vw;
+    margin-right: 2.2vw;
+/*     dropdown      */
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    text-wrap: nowrap;
+}
+
+/* Main Advertisement */
+
+.ad-segment {
+    margin-top: 1%;
+}
+
+.ad-image {
+    width: 100%;
+}
+
+.black-background-ad {
+    background-color: #171717;
+}
+
+/* Enter Department Container Mobile */
+.enter-department-container-mobile {
+    display: none;
+}
+
+/* Enter Department Container Mid And Desktop*/
+.enter-department-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Footer */
+
+footer {
+    gap: 1vh;
+    border-top: 0.5px solid rgb(230, 230, 230);
+    padding-top: 2%;
+}
+
+/* Social Media Section */
+.social-icon-div {
+    width: 2%;
+    margin: 1%;
+}
+
+.footer-table {
+    width: 70%;
+    padding-bottom: 2%;
+}
+
+table {
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    text-align: left;
+    width: 90%;
+    letter-spacing: 0.05vw;
+    word-spacing: 0.1vw;
+}
+td {
+    padding: 0.4vw;
+    padding-left: 3vw;
+    padding-right: 0vw;
+    font-size: 1vw;
+}
+
+th {
+    padding: 3vw;
+    font-weight: 550;
+    font-family: "Lato", bold;
+}
+
+.privacy-and-terms-container {
+    font-size: 0.8vw;
+    font-weight: 600;
+    letter-spacing: 0.05vw;
+    word-spacing: 0.1vw;
+    width: 90%;
+    text-align: center;
+}
+}
+/* --------[End of Mid]------------------------------------------------ */
+/* ------------------------------------------------------------------ */
+/* --------[Mobile]---------------------------------------------------- */
+@media (max-width: 580px) {
+    /* Body and Nav */
+body {
+    border: solid blue;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Top Navigation Container */
+
+.top-navigation-container {
+    width: 95%;
+    /* border: solid orange; */
+    margin: 0;
+    padding-top: 2%;
+    height: 6vh;
+    font-size: 1.5vh;
+    letter-spacing: 0.05vw;
+
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Top Advertisement */
+
+.top-advertisement {
+    background-color: lightgray;
+    width: 100%;
+    text-align: center;
+    height: 6vh;
+    font-size: 3vw;
+    font-weight: 500;
+    letter-spacing: 0.05vw;
+    word-spacing: 0.1vw;
+    overflow: hidden;
+}
+
+.animation {
+    animation:none;
+    display: flex;
+    text-wrap: nowrap;
+    flex-direction: column;
+}
+
+/* Logo, Search and Cart Container */
+.mobile-side-bar {
+    display: block;
+    width: 6%;
+    margin: 1%;
+}
+
+.logo-and-search-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 98%;
+    margin: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+ 
+.logo-div {
+    margin: 0 auto;
+    width: 25%;
+    justify-content: center;
+}
+
+.search-and-cart-container {
+    justify-content: right;
+    width: 15%;
+    gap: 5%;
+}
+
+.search {
+    width: 55%;
+    position: unset;
+}
+
+.search-input-element {
+    display: none;
+    border: none;
+    height: 3vh;
+    width: 100%;
+    border-bottom: 1px solid black;
+    margin-left: 0%;
+}
+
+.bi-search {
+    position: unset;
+    right: 0%;
+    top: 0%;
+}
+ 
+.cart-div {
+    width: 45%;
+    margin-right: 1%;
+    animation: none;
+    animation-delay: 50ms;
+}
+
+/* Main */
+
+/* Main Navigation Bar*/
+
+.main-navigation-bar {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid lightgray;
+    width: 100%;
+    padding: 0%;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 1.6vh;
+    font-weight: 600;
+    font-family: "Lato", sans-serif;
+    letter-spacing: 0.1vw;
+    word-spacing: 0.1vw;
+}
+
+.main-nav-tag {
+    margin-left: 2.2vw;
+    margin-right: 2.2vw;
+/*     dropdown      */
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    text-wrap: nowrap;
+}
+
+/* Main Advertisement */
+
+.ad-segment {
+    margin-top: 0%;
+}
+
+.ad-image {
+    width: 100%;
+}
+
+.black-background-ad {
+    background-color: unset;
+}
+
+/* Enter Department Container Mobile */
+.enter-department-container-mobile {
+    display: block;
+}
+
+/* Enter Department Container Mid and Desktop*/
+.enter-department-container {
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Footer */
+
+footer {
+    gap: 2vh;
+    border-top: 0.5px solid rgb(230, 230, 230);
+    padding-top: 2%;
+}
+
+/* Social Media Section */
+.social-icon-div {
+    width: 5%;
+    margin: 2%;
+}
+
+.footer-table {
+    width: 90%;
+    padding-bottom: 2%;
+}
+
+table {
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    text-align: left;
+    width: 100%;
+    letter-spacing: 0.05vw;
+    word-spacing: 0.1vw;
+}
+td {
+    padding: 0.4vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-size: 1.1vh;
+}
+
+th {
+    padding: 2vw;
+    font-weight: 550;
+    font-family: "Lato", bold;
+}
+
+.privacy-and-terms-container {
+    font-size: 2.7vw;
+    font-weight: 600;
+    letter-spacing: 0.1vw;
+    word-spacing: 0.15vw;
+    width: 90%;
+    text-align: center;
+}
+}
+/* --------[End of Mobile]--------------------------------------------- */
+/* ----------------------------------------------------------- */
+/* ----------------------  General ------------------------------------- */
+
 /* Flex */
 body, nav, footer,
 .top-advertisement,
-.top-navigation-container,
 .accessibility-nav-tag,
-.logo-and-search-container,
 .search-and-cart-container, 
-.main-navigation-bar,
 .ad-segment,
-.enter-department-container,
 .all-departments-container,
+.footer-table,
 .social-media-container, 
 .help-main-container,
 .register-main-container,
@@ -62,7 +788,10 @@ body, nav, footer,
 
 /* All Images */
 
-.logo, .social-icon, .cart-image, .gift-image-container img {
+.logo, .social-icon, .cart-image, 
+.gift-image-container img,
+.mobile-side-bar img,
+.department-image-div-mobile img {
     width:100%;
     height:100%;
 }
@@ -81,41 +810,13 @@ nav {
 
 /* Top Advertisement */
 
-.top-advertisement {
-    background-color: lightgray;
-    width: 100%;
-    text-align: center;
-    height: 4vh;
-    font-size: 1.3vw;
-    font-weight: 500;
-    letter-spacing: 0.05vw;
-    word-spacing: 0.1vw;
-    overflow: hidden;
-}
-
-.animation {
-    animation: ad-animation 35s linear infinite;
-    display: flex;
-    text-wrap: nowrap;
-}
-
-.top-advertisement a {
+.black-anchor > a {
     color: black;
     text-decoration: none;
 }
 
 
 /* Top Navigation Container */
-
-.top-navigation-container {
-    width: 95%;
-    /* border: solid orange; */
-    margin: 0;
-    padding-top: 2%;
-    height: 6vh;
-    font-size: 1.5vh;
-    letter-spacing: 0.05vw;
-}
 
 .top-nav-left {
     display: flex;
@@ -164,40 +865,6 @@ nav {
 
 /* Logo, Search and Cart Container */
 
-.logo-and-search-container {
-    /* border: solid aqua; */
-    width: 98%;
-    margin: 1%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-}
- 
-.logo-div {
-    width: 15%;
-    justify-content: right;
-    /* border: solid purple; */
-}
-
-.search-and-cart-container {
-    /* border: solid seagreen; */
-    justify-content: right;
-    width: 82%;
-    gap: 5%;
-}
-
-.search {
-    width: 40%;
-    position: relative;
-}
-
-.search-input-element {
-    border: none;
-    height: 3vh;
-    width: 100%;
-    border-bottom: 1px solid black;
-    /* margin-left: 25%; */
-}
-
 .search-input-element::placeholder, .search-input-element:focus {
     background-color: white;
     outline: none;
@@ -206,46 +873,10 @@ nav {
     border-bottom: 1px solid lightblue;
 }
 
-.bi-search {
-    position: absolute;
-    right: 3%;
-    top: 5%;
-}
- 
-.cart-div {
-    width: 4%;
-    margin-right: 1%;
-    animation: shopping-cart-animation 10s ease-in-out 1;
-    animation-delay: 50ms;
-}
-
 
 /* Main */
 
 /* Main Navigation Bar*/
-
-.main-navigation-bar {
-    border: 0.5px solid lightgray;
-    width: 100%;
-    padding: 2%;
-    justify-content: center;
-    text-transform: uppercase;
-    font-size: 1.6vh;
-    font-weight: 600;
-    font-family: "Lato", sans-serif;
-    letter-spacing: 0.1vw;
-    word-spacing: 0.1vw;
-}
-
-.main-nav-tag {
-    margin-left: 2.2vw;
-    margin-right: 2.2vw;
-/*     dropdown      */
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-    text-wrap: nowrap;
-}
 
 .main-nav-tag a {
     color: black;
@@ -282,16 +913,6 @@ nav {
     display: block;
   }
 
-/* Main Advertisement */
-
-.ad-segment {
-    margin-top: 1%;
-}
-
-.black-background-ad {
-    background-color: #171717;
-}
-
 /* Enter Department Container */
 
 .enter-department-left-align {
@@ -305,50 +926,7 @@ nav {
 
 /* Footer */
 
-footer {
-    gap: 2vh;
-    border-top: 0.5px solid rgb(230, 230, 230);
-    padding-top: 2%;
-}
-
 /* Social Media Section */
-.social-icon-div {
-    width: 3%;
-    margin: 1%;
-}
-
-.footer-table {
-    width: 90%;
-    padding-bottom: 2%;
-}
-
-table {
-    text-transform: uppercase;
-    font-family: "Lato", sans-serif;
-    text-align: left;
-    width: 100%;
-    letter-spacing: 0.05vw;
-    word-spacing: 0.1vw;
-}
-td {
-    padding: 0.4vw;
-    padding-left: 2vw;
-    padding-right: 2vw;
-    font-size: 1vw;
-}
-
-th {
-    padding: 2vw;
-    font-weight: 550;
-    font-family: "Lato", bold;
-}
-
-.privacy-and-terms-container {
-    font-size: 1.1vw;
-    font-weight: 600;
-    letter-spacing: 0.05vw;
-    word-spacing: 0.1vw;
-}
 
 .privacy-and-terms-container a {
     color: black;
