@@ -1,10 +1,10 @@
 /* Animation */
 @keyframes ad-animation {
-    0% {transform: translateX(-55vw);}
-    25% {transform: translateX(0);}
-    52.55% {transform: translateX(35vw);}
-    75% {transform: translateX(55vw);}
-    100% {transform: translateX(100vw);}
+    0% {transform: translateX(-75vw);}
+    25% {transform: translateX(-15vw);}
+    52.55% {transform: translateX(15vw);}
+    75% {transform: translateX(70vw);}
+    100% {transform: translateX(90vw);}
 }
 
 @keyframes shopping-cart-animation {
@@ -26,7 +26,10 @@ body, nav, footer,
 .social-media-container, 
 .help-main-container,
 .register-main-container,
-.stores-main-container {
+.stores-main-container,
+.gift-certificates-container,
+.gift-image-and-form-container,
+.online-shopping-images-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,13 +39,14 @@ body, nav, footer,
 .enter-department-container,
 .help-main-container,
 .form-container,
-.stores-main-container {
+.stores-main-container,
+.gift-certificates-container {
     flex-direction: column;
 }
 
 /* All Images */
 
-.logo, .social-icon, .cart-image {
+.logo, .social-icon, .cart-image, .gift-image-container img {
     width:100%;
     height:100%;
 }
@@ -70,14 +74,11 @@ nav {
     font-weight: 500;
     letter-spacing: 0.05vw;
     word-spacing: 0.1vw;
-}
-
-.space {
-    width: 40vw;
+    overflow: hidden;
 }
 
 .animation {
-    animation: ad-animation 30s linear infinite;
+    animation: ad-animation 35s linear infinite;
     display: flex;
     text-wrap: nowrap;
 }
@@ -301,7 +302,7 @@ td {
     padding: 0.4vw;
     padding-left: 2vw;
     padding-right: 2vw;
-    font-size: 1.2vw;
+    font-size: 1vw;
 }
 
 th {
@@ -333,7 +334,6 @@ th {
 
 .help-title, .help-details,
 .support-hours-container, 
-.form-container,
 .form-container {
     width: 100%;
 }
@@ -513,9 +513,21 @@ label {
     background-color: rgb(228, 77, 77);
 }
 
+.green-btn {
+    background-color: #3e7c21;
+    height: 5vh;
+    width: 50%;
+    margin-left: 45%;
+    transition: background-color 400ms; 
+}
+
+.green-btn:hover {
+    background-color: #528f37;
+}
+
 /* -------------------------------------------------------------- */
 /* -------------------------------------------------------------- */
-/* ------------------------ stores.html----------------------- */
+/* ------------------------ stores.html-------------------------- */
 
 .stores-main-container {
     width: 95%;
@@ -536,4 +548,100 @@ label {
 .flash-sale img {
     width: 100%;
     height: 100%;
+}
+
+/* -------------------------------------------------------------- */
+/* -------------------------------------------------------------- */
+/* ------------------------ gift-certificates.html--------------- */
+
+.gift-certificates-container {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+    align-items: flex-start;
+}
+
+.gift-image-and-form-container {
+    width: 100%;
+    align-items: flex-start;
+    margin: 0 auto;
+}
+
+.gift-image-container {
+    width: 55%;
+}
+
+.gift-form-container {
+    width: 45%;
+    padding-left: 2%;
+}
+.amount-input-and-minmax-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-and-mimax-div {
+    display: flex;
+}
+
+.amount-label-div{
+    width: 50%;
+    height: 50%;
+}
+
+.amount-label-div input {
+    width: 90%;
+}
+
+.input-div {
+    width: 50%;
+    height: 50%;
+    font-size: 1.4vh;
+    font-family: "Lato", bold;
+}
+
+#add-to-cart-form {
+    width: 80%;
+}
+
+.gift-input, #gift-textarea {
+    width: 98%;
+    cursor:pointer;
+}
+.online-shopping-images-container {
+    height: 10vh;
+    border-top:1px solid rgb(141, 141, 141);
+    border-bottom:1px solid rgb(141, 141, 141);
+}
+
+.online-shopping-image {
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    height: 100%;
+    transition: background-color 400ms;
+}
+
+.online-shopping-image:hover {
+    background-color: rgba(233, 233, 233, 0.418);
+}
+
+.blue-details {
+    color: rgb(66, 136, 228);
+}
+
+.narrow-container {
+    width: 90%;
+}
+
+.gift-red-hr {
+    width: 100%;
+    background-color: #990400;
+    border-color: #990400;
+    height: 0.1vh;
+}
+
+.middle-centered {
+    text-align: center;
 }
