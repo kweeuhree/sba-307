@@ -11,6 +11,7 @@ The website is responsive and consists out of five text-populated pages with con
 <li>Gift certificates page, or gift-certificates.html</li>
 <li>Register an account page, or register.html</li>
 </ul>
+All pages are located in the top navigation bar.<br><br>
 index.html can be navigated to by clicking main SamAsh logo in the top left corner of the website.
 help.html can be navigated to by clicking on 'Help', stores.html on 'Stores', and Gift certificates by clicking on 'Gift Certificates', in the left section of top navigation bar; register.html can be navigated to by clicking on "Log In / Register' in the right section of top navigation bar. Help.html, register.html and gift-certificates.html each contain a form.
 <br><br>
@@ -35,7 +36,7 @@ Multiple CSS selectors are used in order to achieve a fully customized website.
 <br><br>
 Alignment of elements is achieved through flexbox only.
 <br><br>
-Three elements are animated: top advertisement, 'Chat Now' image, and shopping cart.
+Three elements are animated: top advertisement, 'Chat Now' image, and shopping cart.<br>
 The top advertisement is appearing on the left, moves horizontally across viewport and disappears on the right. The effect is achieved via moving the animated element with <code>transform:translateX()</code>.<br>
 'Chat Now' image moves on hover of its parent div, which is 'Accessibility' navigation tag inside top navigation bar.<code>translateX()</code>, <code>translateY</code>, and <code>rotateY</code> are used in the animation.<br>
 The shopping cart is animated once with <code>transform: rotate()</code>.<br>
@@ -47,7 +48,7 @@ The shopping cart is animated once with <code>transform: rotate()</code>.<br>
 <br>
 <h6>Were there any requirements that were difficult to implement? What do you think would make them easier to implement in future projects?</h6>
 <p>I made the website responsive, and I think I need more practice in making websites responsive.</p>
-<hr>
+<br>
 <h6>What would you add to or change about your website if given more time?</h6>
 <p>I would add more pages and fill them with more content. I would try to create more animations.</p>
 <hr>
