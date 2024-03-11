@@ -13,7 +13,9 @@ The website is responsive and consists out of five text-populated pages with con
 </ul>
 All pages are located in the top navigation bar.<br><br>
 index.html can be navigated to by clicking main SamAsh logo in the top left corner of the website.
-help.html can be navigated to by clicking on 'Help', stores.html on 'Stores', and Gift certificates by clicking on 'Gift Certificates', in the left section of top navigation bar; register.html can be navigated to by clicking on "Log In / Register' in the right section of top navigation bar. Help.html, register.html and gift-certificates.html each contain a form.
+help.html can be navigated to by clicking on 'Help', stores.html on 'Stores', and gift-certificates.html by clicking on 'Gift Certificates', in the left section of top navigation bar; register.html can be navigated to by clicking on "Log In / Register' in the right section of top navigation bar. 
+<br><br>
+Help.html, register.html and gift-certificates.html each contain a form.
 <br><br>
 The website utilizes multiple HTML tags, including <code>nav</code>, <code>main</code>, <code>form</code>, <code>fieldset</code>, <code>table</code>,<code>ul</code>, <code>footer</code> etc.
 <br><br>
