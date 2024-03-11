@@ -1,3 +1,5 @@
+GitHub account link: https://github.com/kweeuhree<br><br>
+
 This is a mock up of SamAsh.com musical website.<br>
 
 <h3>HTML requirements</h3>
@@ -37,4 +39,18 @@ Three elements are animated: top advertisement, 'Chat Now' image, and shopping c
 The top advertisement is appearing on the left, moves horizontally across viewport and disappears on the right. The effect is achieved via moving the animated element with <code>transform:translateX()</code>.<br>
 'Chat Now' image moves on hover of its parent div, which is 'Accessibility' navigation tag inside top navigation bar.<code>translateX()</code>, <code>translateY</code>, and <code>rotateY</code> are used in the animation.<br>
 The shopping cart is animated once with <code>transform: rotate()</code>.<br>
+<hr>
+<h3>Reflection</h3>
+<br>
+<h6>What could you have done differently during the planning stages of your project to make the execution easier?</h6>
+<p>I would have styled one page fully, and then copied the existing grid to other pages. I have been adding new divs as I went, so I spent too much time copypasting new html elements three to four times.</p>
+<br>
+<h6>Were there any requirements that were difficult to implement? What do you think would make them easier to implement in future projects?</h6>
+<p>I made the website responsive, and I think I need more practice in making websites responsive.</p>
+<hr>
+<h6>What would you add to or change about your website if given more time?</h6>
+<p>I would add more pages and fill them with more content. I would try to create more animations.</p>
+<hr>
+<h6>Use this space to make notes for your future self about anything that you think is important to remember about this process, or that may aid you when attempting something similar again.</h6>
+<p>Please do more planning.</p>
 
