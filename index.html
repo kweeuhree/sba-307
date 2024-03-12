@@ -16,6 +16,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+        <link href='https://unpkg.com/css.gg@2.0.0/icons/css/close.css' rel='stylesheet'>
         <style>
             a {
                 cursor: pointer;
@@ -105,11 +106,13 @@
         <div class="logo-and-search-container">
 
             <!-- Mobile Side Bar -->
-            <div class="mobile-side-bar">
+            <div class="mobile-side-bar" onclick="openSidebar()">
                 <img 
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWZCzgqnZxPhuFIcoKaatzy6sAMDuF-bXkkQ&usqp=CAU" 
-                    alt="Sidebar Icon">
+                    alt="Sidebar Icon"
+                    id="sidebar-icon">
             </div>
+ 
             <!-- Logo -->
             <div class="logo-div">
                 <a href="index.html">
@@ -274,6 +277,9 @@
 
     <!-- Main -->
     <main>
+
+        <!-- <div id="overlay"></div> -->
+
         <!-- Main Advertisement Container -->
         <div class="main-advertisement-container">
 

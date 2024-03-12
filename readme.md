@@ -43,6 +43,10 @@ The top advertisement is appearing on the left, moves horizontally across viewpo
 'Chat Now' image moves on hover of its parent div, which is 'Accessibility' navigation tag inside top navigation bar.<code>translateX()</code>, <code>translateY</code>, and <code>rotateY</code> are used in the animation.<br>
 The shopping cart is animated once with <code>transform: rotate()</code>.<br>
 <hr>
+<h3>JavaScript</h3>
+In the mobile view, a sidebar icon is appearing. Upon clicking of the icon, JavaScript changes display of the main navigation bar to 'flex'. This function will also change source of the sidebar icon to a closing icon, and hide sections main and footer. All effects are reversed after clicking on the closing icon.
+<br>
+<hr>
 <h3>Reflection</h3>
 <br>
 <h6>What could you have done differently during the planning stages of your project to make the execution easier?</h6>
